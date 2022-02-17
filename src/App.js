@@ -1,23 +1,35 @@
 import logo from './logo.svg';
 import './App.css';
+import './icons/font-awesome/css/all.css';
+import './styles/main.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div class="page-wrapper">
+      <div class="content-wrapper">
+        <h1>Hi, I'm Jan Pierre</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Senior Developer                   
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        <a href="https://github.com/gamunax">
+          <i class="icon fab fa-github fa-2x"></i>
         </a>
-      </header>
+        <a href="https://medium.com/@janpierrsanchez/">
+          <i class="icon fab fa-brands fa-medium fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/jose-jan-pierre-sanchez-manosalva/">
+          <i class="icon fab fa-linkedin-in fa-2x"></i>
+        </a>
+        <a href="https://es.stackoverflow.com/users/14040/jan-pierre-sanchez">
+          <i class="icon fab fa-stack-overflow fa-2x"></i>
+        </a>
+        <a href="https://www.facebook.com/groups/dev.angular">
+          <i class="icon fab fa-facebook fa-2x"></i>
+        </a>
+        <a href="mailto:gamunaxx@gmail.com">
+          <i class="icon fas fa-envelope fa-2x"></i>
+        </a>
+      </div>
     </div>
   );
 }
