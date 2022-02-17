@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import './icons/font-awesome/css/all.css';
 import './styles/main.css';
